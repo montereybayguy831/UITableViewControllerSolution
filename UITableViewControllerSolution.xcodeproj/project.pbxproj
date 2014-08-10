@@ -14,13 +14,13 @@
 		C6FC3A031996DBF3006A3881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC3A021996DBF3006A3881 /* main.m */; };
 		C6FC3A071996DBF3006A3881 /* JFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC3A061996DBF3006A3881 /* JFAppDelegate.m */; };
 		C6FC3A0A1996DBF3006A3881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6FC3A081996DBF3006A3881 /* Main.storyboard */; };
-		C6FC3A0D1996DBF3006A3881 /* JFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC3A0C1996DBF3006A3881 /* JFViewController.m */; };
 		C6FC3A0F1996DBF3006A3881 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FC3A0E1996DBF3006A3881 /* Images.xcassets */; };
 		C6FC3A161996DBF3006A3881 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FC3A151996DBF3006A3881 /* XCTest.framework */; };
 		C6FC3A171996DBF3006A3881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FC39F61996DBF2006A3881 /* Foundation.framework */; };
 		C6FC3A181996DBF3006A3881 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FC39FA1996DBF3006A3881 /* UIKit.framework */; };
 		C6FC3A201996DBF3006A3881 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6FC3A1E1996DBF3006A3881 /* InfoPlist.strings */; };
 		C6FC3A221996DBF3006A3881 /* UITableViewControllerSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC3A211996DBF3006A3881 /* UITableViewControllerSolutionTests.m */; };
+		C6FC3A2D1996DFA7006A3881 /* JFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FC3A2C1996DFA7006A3881 /* JFTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		C6FC3A051996DBF3006A3881 /* JFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFAppDelegate.h; sourceTree = "<group>"; };
 		C6FC3A061996DBF3006A3881 /* JFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAppDelegate.m; sourceTree = "<group>"; };
 		C6FC3A091996DBF3006A3881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C6FC3A0B1996DBF3006A3881 /* JFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFViewController.h; sourceTree = "<group>"; };
-		C6FC3A0C1996DBF3006A3881 /* JFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFViewController.m; sourceTree = "<group>"; };
 		C6FC3A0E1996DBF3006A3881 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C6FC3A141996DBF3006A3881 /* UITableViewControllerSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FC3A151996DBF3006A3881 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C6FC3A1D1996DBF3006A3881 /* UITableViewControllerSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		C6FC3A1F1996DBF3006A3881 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C6FC3A211996DBF3006A3881 /* UITableViewControllerSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerSolutionTests.m; sourceTree = "<group>"; };
+		C6FC3A2B1996DFA7006A3881 /* JFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTableViewController.h; sourceTree = "<group>"; };
+		C6FC3A2C1996DFA7006A3881 /* JFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				C6FC3A051996DBF3006A3881 /* JFAppDelegate.h */,
 				C6FC3A061996DBF3006A3881 /* JFAppDelegate.m */,
 				C6FC3A081996DBF3006A3881 /* Main.storyboard */,
-				C6FC3A0B1996DBF3006A3881 /* JFViewController.h */,
-				C6FC3A0C1996DBF3006A3881 /* JFViewController.m */,
+				C6FC3A2B1996DFA7006A3881 /* JFTableViewController.h */,
+				C6FC3A2C1996DFA7006A3881 /* JFTableViewController.m */,
 				C6FC3A0E1996DBF3006A3881 /* Images.xcassets */,
 				C6FC39FD1996DBF3006A3881 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6FC3A071996DBF3006A3881 /* JFAppDelegate.m in Sources */,
-				C6FC3A0D1996DBF3006A3881 /* JFViewController.m in Sources */,
+				C6FC3A2D1996DFA7006A3881 /* JFTableViewController.m in Sources */,
 				C6FC3A031996DBF3006A3881 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
